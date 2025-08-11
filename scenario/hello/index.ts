@@ -1,1 +1,2 @@
-export { default as Hello } from './ui/src/Hello'
+import Hello from './ui/src/Hello'
+export default Hello

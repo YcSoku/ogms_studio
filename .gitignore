@@ -236,3 +236,4 @@ dist/
 templates/
 resources/
 temp/
+package-lock.json

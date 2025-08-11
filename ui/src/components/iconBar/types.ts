@@ -11,7 +11,6 @@ export interface IconBarClickHandlers {
     [iconID: string]: (iconID: string) => void
 }
 
-
 export interface IconBarProps {
     currentActiveId: string
     clickHandlers: IconBarClickHandlers

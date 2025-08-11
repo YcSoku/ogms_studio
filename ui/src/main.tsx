@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import Framework from './Framework'
 
 createRoot(document.getElementById('root')!).render(
-  <App />
+  <Framework />
 )

@@ -26,6 +26,7 @@ class Hello(IHello):
         font_size = 64
         font_families = ['Rockwell', 'Arial', 'Times New Roman']
 
+        # Find a suitable font
         for family in font_families:
             try:
                 font_path = fm.findfont(fm.FontProperties(family=family, weight='bold'))
@@ -33,7 +34,8 @@ class Hello(IHello):
                 break
             except (OSError, IOError):
                 continue
-        
+
+        # If no suitable font is found, use the default font
         if font is None:
             font = ImageFont.load_default(size=font_size)
 

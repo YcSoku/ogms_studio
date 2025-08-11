@@ -1,4 +1,4 @@
 module_prefix: scenario
-module_postfix: .node.src
+module_postfix: .ldle.src
 scenario_nodes:
   - name: hello

@@ -1,11 +1,11 @@
-import { Combine, Globe2, Grid3X3, Languages, Settings, User } from "lucide-react"
-import type { IconBarProps, IconEntry } from "./types"
-import { cn } from "@/utils/utils"
+import { Globe2, Grid3X3, Languages, Settings, User } from 'lucide-react'
+import type { IconBarProps, IconEntry } from './types'
+import { cn } from '@/utils/utils'
 
-export const ICON_REGISTRY: IconEntry[] = [
+const ICON_REGISTRY: IconEntry[] = [
     { id: 'grid-editor', icon: Grid3X3, label: 'Grid Editor' },
-    { id: 'settings', icon: Settings, label: 'Settings' },
     { id: 'map-studio', icon: Globe2, label: 'Map Studio' },
+    { id: 'settings', icon: Settings, label: 'Settings' },
     { id: 'languages', icon: Languages, label: 'Languages', style: 'mt-auto' },
     { id: 'user', icon: User, label: 'User', style: '!border-blue-500' }
 ]
