@@ -1,2 +1,2 @@
 # ogms_studio
-Studio for open geographic modeling and simulation
+Studio for Open Geographic Modeling and Simulation

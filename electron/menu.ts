@@ -46,7 +46,6 @@ export default function createMenu() {
         ...(isMac ? [{
             role: 'appMenu' as const,
             submenu: [
-                { role: 'about' as const },
                 {
                     label: 'API Documentation',
                     accelerator: 'CmdOrCtrl+Shift+A',
@@ -54,6 +53,9 @@ export default function createMenu() {
                         createApiDocsWindow()
                     }
                 },
+                { role: 'about' as const },
+                { type: 'separator' as const },
+                { role: 'fileMenu' as const },
                 { type: 'separator' as const },
                 { role: 'services' as const },
                 { type: 'separator' as const },

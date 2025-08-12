@@ -1,12 +1,11 @@
 [project]
 name = "ogms_studio"
 version = "0.1.0"
-description = "Add your description here"
+description = "Studio for Open Geographic Modeling and Simulation, powered by py-noodle"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "gdal==3.10.2",
-    "py-noodle>=0.1.1",
 ]
 
 [tool.uv.workspace]
@@ -17,8 +16,10 @@ members = [
 
 [tool.uv.sources]
 ldle = { workspace = true }
+py-noodle = { path = "py-noodle", editable = true }
 
 [dependency-groups]
 dev = [
     "ldle",
+    "py-noodle",
 ]
