@@ -1,0 +1,3 @@
+[submodule "py-noodle"]
+	path = py-noodle
+	url = https://github.com/world-in-progress/py-noodle.git
